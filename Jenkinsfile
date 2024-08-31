@@ -11,7 +11,6 @@ pipeline {
             steps {
 
                         powershell 'gradle clean build'
-                
             }
         }
         stage('Test') {
